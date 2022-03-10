@@ -22,14 +22,18 @@ public class Main {
        System.out.println("Разница в весе боксеров " + weightDifference);
 
        //Задание 3
-       byte bananas = 5;
-       short milk = 200;
-       byte iceСream = 2;
-       byte eggs = 4;
-       short bananasInGrams = 5 * 80;
-       short milkInGrams = 2 * 105;
-       short iceCreamInGrams = 2 * 100;
-       short eggsInGrams = 4 * 70;
+       int bananas = 5;
+       int milk = 2;
+       int iceСream = 2;
+       int eggs = 4;
+       int bananasWeight = 80;
+       int milkWeight = 105;
+       int iceCreamWeight = 100;
+       int eggsWeight = 70;
+       int bananasInGrams = bananas * bananasWeight;
+       int milkInGrams = milk * milkWeight;
+       int iceCreamInGrams = iceСream * iceCreamWeight;
+       int eggsInGrams = eggs * eggsWeight;
        System.out.println("Вес бананов в граммах " + bananasInGrams);
        System.out.println("Вес молока в граммах " + milkInGrams);
        System.out.println("Вес мороженного в граммах " + iceCreamInGrams);
